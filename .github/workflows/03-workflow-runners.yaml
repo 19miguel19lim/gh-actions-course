@@ -4,13 +4,13 @@ on: push
 
 jobs:
   ubunto-echo:
-    runs-on: ubunto-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Show OS
         run: |
           echo "This job is running on an ${{ runner.os }} runner."
   windows-echo:
-    runs-on: windows-lates
+    runs-on: windows-latest
     steps:
       - name: Show OS
         run: |
